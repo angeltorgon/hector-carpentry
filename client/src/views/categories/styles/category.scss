@@ -1,0 +1,13 @@
+.category-container {
+    box-shadow: 0 0px 8px 0 rgba(0,0,0,0.2);
+    height: 400px;
+    margin: 10px;
+    border-radius: 5px;
+    max-width: 500px;
+
+    img {
+        width: 100%;
+        border-radius: 5px 5px 0 0;
+        height: 100%;
+    }
+}
