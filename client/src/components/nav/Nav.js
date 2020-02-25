@@ -7,11 +7,11 @@ export default function Nav() {
     return (
         <div className="nav-container">
             <div className="links-container" >
-                <div className="link">HOME</div>
-                <div className="link">ABOUT</div>
-                <div className="link">KITCHENS</div>
-                <div className="link">STAIRS</div>
-                <div className="link">BEAMS</div>
+                <div className="link">Home</div>
+                <div className="link">About</div>
+                <div className="link">Kitchens</div>
+                <div className="link">Stairs</div>
+                <div className="link">Beams</div>
             </div>
             <h1 className="logo">Hector Carpentry</h1>
         </div>
