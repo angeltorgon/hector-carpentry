@@ -1,0 +1,31 @@
+.nav-container {
+    width: 100%;
+    margin: 0 auto;
+    height: 60px;
+    background-color: rgb(47,70,114);
+    position: fixed;
+    top: 0;
+    opacity: .9;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    display: flex;
+    justify-content: space-between;
+    z-index: 10;
+    display: flex;
+    align-items: center;
+    color: white;
+
+    .logo {
+        font-family: 'Allerta', ;
+        margin: 20px;
+    }
+
+    .links-container {
+        display: flex;
+        margin: 20px;
+
+        .link {
+            margin: 5px;
+        }
+    }
+}
