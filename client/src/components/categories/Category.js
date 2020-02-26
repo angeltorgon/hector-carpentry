@@ -5,18 +5,27 @@ import './styles/category.scss';
 
 export default function Category(props) {
     const [ image, setImage ] = useState();
+    let [ currentImage, setCurrentImage ] = useState(0);
 
     useEffect(() => {
-        console.log("props -- ", props);
-        setImage(props.category.images[0]);
+        setImage(props.category.images[currentImage]);
+        setInterval(() => {
+            if(currentImage === 1) {
+                currentImage = 0;
+            } else {
+                currentImage ++;
+            }
+            setImage(props.category.images[currentImage]);
+        }, 5000);
     }, [])
 
     if(!image) {
-        return null
+        return <h1>Loading...</h1>
     }
 
     return (
         <div className="category-container">
+            <p>{props.category.description}</p>
             <img src={image}/>
         </div>
     )
