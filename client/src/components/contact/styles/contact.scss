@@ -39,7 +39,6 @@
   
         .textarea {
           height: 150px;
-          border: 1px solid grey;
         }
       }
   
@@ -49,6 +48,8 @@
         padding: 5px;
         margin: 10px 5px;
         font-size: 16px;
+        font-family: "Montserrat";
+        border: .5px solid lightgrey;
       }
   
       .top-inputs {
@@ -95,29 +96,4 @@
       }
     }
   
-    .contact-icons-container {
-      margin: 30px 0 40px;
-      width: 150px;
-      display: flex;
-      justify-content: space-around;
-      align-items: center;
-  
-      .contact-icon {
-        width: 40px;
-        padding: 5px;
-        border-radius: 10px;
-        box-shadow: 0px 0px 5px 0px rgba(241, 240, 240, 0.75);
-        background-color: white;
-        transition: ease-in-out 0.3s;
-  
-        &:hover {
-          transform: scale(1.03);
-        }
-      }
-    }
-  
-    footer {
-      margin: 0 0 20px;
-      color: grey;
-    }
   }
