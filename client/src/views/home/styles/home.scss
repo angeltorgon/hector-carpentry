@@ -1,9 +1,9 @@
 .home-container {
 
-    h1 {
+    .about-h1 {
         font-size: 2rem;
-        margin: 30px;
         font-family: "Montserrat";
+        margin-top: 40px;
     }
 
     .bio {
@@ -19,6 +19,6 @@
 
     .line-break {
         border-bottom: 1px solid lightgrey;
-        margin: 40px 30px;
+        margin: 40px 30px 10px 0;
     }
 }
