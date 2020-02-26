@@ -32,6 +32,15 @@ const categories = [
             "https://live.staticflickr.com/2335/2182808920_21e7c4ca50_b.jpg"
         ]
     },
+    {
+        category: "doors",
+        description: "Door Installation - Door Replacemt - Exterior - Interior",
+        images: [
+            "https://image.made-in-china.com/202f0j00sTSftHjgaRqK/Interior-Solid-Wooden-Door-Design-for-Your-House-PR-D02-.jpg",
+            "https://lh3.googleusercontent.com/proxy/1AS5IjjJ9kbEbLKb6A9qYksInhh6t7QHbZplID6oE-vZWatR_N4snBEseIP6aseC-UJl1YIaxJFt18ltK1fPnOE6AM03FoLi-7J6KeeI1OpG_tYME_DZueqLyPu9xBinE6H3ngCsbVZPqG8Bc0mO7E67z8aiUuaVoK6kGTSK9KzMG7esP9lFOJ64u9g",
+            "https://cdn.homedit.com/wp-content/uploads/2011/06/dark-wood-floor-with-white-door.jpg"
+        ]
+    },
 ]
 
 export default function Categories() {
