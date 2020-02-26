@@ -22,7 +22,16 @@ const categories = [
             "https://images.unsplash.com/photo-1505334086731-6579ef4cf449?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80",
             "https://images.unsplash.com/photo-1562764661-469bc3f331d1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80"
         ]
-    }
+    },
+    {
+        category: "trim",
+        description: "Base Boards - Window Sills - Trim - Crown Moulding - Wainscoting",
+        images: [
+            "https://wisconsinbarnhouse.weebly.com/uploads/1/1/9/8/11981788/3887675_orig.jpg",
+            "https://i.pinimg.com/originals/bc/90/82/bc9082949bb0e555f2582a290cb0ec71.jpg",
+            "https://live.staticflickr.com/2335/2182808920_21e7c4ca50_b.jpg"
+        ]
+    },
 ]
 
 export default function Categories() {
