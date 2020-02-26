@@ -25,8 +25,11 @@ export default function Category(props) {
 
     return (
         <div className="category-container">
-            <p>{props.category.description}</p>
-            <img src={image}/>
+            <h1>{props.category.category.toUpperCase()}</h1>
+            <p className="description">{props.category.description}</p>
+            <div className="image-container">
+                <img src={image}/>
+            </div>
         </div>
     )
 }
