@@ -6,7 +6,7 @@ import Category from './Category';
 
 const categories = [
     {
-        category: "Cabinets",
+        category: "cabinets",
         description: "Custom Cabinets - Cabinet Door Installation - Islands - Pantries - Closets",
         images: [
             "https://lda.lowes.com/is/image/Lowes/DP18-142907_1-1_dt_KitchenCabinetry_2col_hero-Image?scl=1",
@@ -15,8 +15,8 @@ const categories = [
         ]
     },
     {
-        category: "Stairs",
-        description: "Pellentesque in ipsum id orci porta dapibus. Cras ultricies ligula sed magna dictum porta. Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Pellentesque in ipsum id orci porta dapibus. Donec rutrum congue leo eget malesuada.",
+        category: "stairs",
+        description: "Step Installation - Ballister Installation - Hand Rail Installation",
         images: [
             "https://images.unsplash.com/photo-1560170433-bc0adc32bccd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80",
             "https://images.unsplash.com/photo-1505334086731-6579ef4cf449?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80",
