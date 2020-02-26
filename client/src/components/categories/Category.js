@@ -5,17 +5,17 @@ import './styles/category.scss';
 
 export default function Category(props) {
     const [ image, setImage ] = useState();
-    let [ currentImage, setCurrentImage ] = useState(0);
 
     useEffect(() => {
-        setImage(props.category.images[currentImage]);
+        let currImageIndex = 0;
+        setImage(props.category.images[currImageIndex]);
         setInterval(() => {
-            if(currentImage === 1) {
-                currentImage = 0;
+            if(currImageIndex === 2) {
+                currImageIndex = 0;
             } else {
-                currentImage ++;
+                currImageIndex ++;
             }
-            setImage(props.category.images[currentImage]);
+            setImage(props.category.images[currImageIndex]);
         }, 5000);
     }, [])
 
