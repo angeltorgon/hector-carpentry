@@ -5,7 +5,7 @@ import Header from '../../components/header/Header';
 
 // STYLES
 import './styles/home.scss';
-import Categories from '../categories/Categories';
+import Categories from '../../components/categories/Categories';
 
 export default function Home() {
     return (
