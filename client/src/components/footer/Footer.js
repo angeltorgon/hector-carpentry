@@ -17,7 +17,7 @@ export default function Footer() {
                     <img src="https://image.flaticon.com/icons/png/512/59/59439.png"/>
                 </div> */}
             </div>
-            <p>hectorcarpentry.com©2020 All rights reserved.</p>
+            <p>hectorcarpentry.com ©2020</p>
         </div>
     )
 }
