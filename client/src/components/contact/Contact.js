@@ -9,16 +9,28 @@ export default function Contact() {
             <h1 class="section-title">Get a Quote!</h1>
             <form data-netlify="true" class="contact-form" netlify>
                 <div class="contact-top-inputs-container">
-                <input type="text" class="contact-input top-inputs left" placeholder="Name" />
-                <input type="text" class="contact-input top-inputs right" placeholder="Email" />
+                    <div className="top-input-container left">
+                        <label>Name</label>
+                        <input type="text" class="contact-input top-input" placeholder="" />
+                    </div>
+                    <div className="top-input-container">
+                        <label>Email</label>
+                        <input type="text" class="contact-input top-input right" placeholder="" />
+                    </div>
                 </div>
                 <div class="contact-bottom-inputs-container">
-                <input type="text" class="contact-input" placeholder="Subject" />
-                <textarea class="contact-input textarea" placeholder="Message"></textarea>
+                    <div className="bottom-input-container">
+                        <label>Subject</label>
+                        <input type="text" className="contact-input" placeholder="" />
+                    </div>
+                    <div className="bottom-input-container" >
+                        <label>Message</label>
+                        <textarea className="contact-input textarea" placeholder=""></textarea>
+                    </div>
                 </div>
                 <div class="contact-button-container">
-                <button type="submit" class="contact-button">Send</button>
-                <button type="reset" class=" contact-button clear-button">Clear Form</button>
+                    <button type="submit" class="contact-button">Send</button>
+                    <button type="reset" class=" contact-button clear-button">Clear Form</button>
                 </div>
             </form>
         </div>
