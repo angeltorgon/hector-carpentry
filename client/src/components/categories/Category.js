@@ -29,10 +29,10 @@ export default function Category(props) {
 
     useEffect(() => {
         setImage(props.category.images[currImageIndex]);
-        setInterval(() => {
-            currImageIndex = moveRight(currImageIndex);
-            setImage(props.category.images[currImageIndex]);
-        }, 5000);
+        // setInterval(() => {
+        //     currImageIndex = moveRight(currImageIndex);
+        //     setImage(props.category.images[currImageIndex]);
+        // }, 5000);
     }, [])
 
     const handleClick = (e) => {
