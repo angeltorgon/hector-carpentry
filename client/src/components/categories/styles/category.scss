@@ -31,4 +31,23 @@
             transition: ease-in-out 3s;
         }
     }
+
+    .arrow-container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100px;
+        margin: 10px auto;
+        color: darkgray;
+
+        .arrow-icon {
+            box-shadow: 0 0px 8px 0 rgba(0,0,0,0.2);
+            border-radius: 50%;
+            transition: .2s ease-in-out;
+
+            &:hover {
+                transform: scale(1.03);
+            }
+        }
+    }
 }
