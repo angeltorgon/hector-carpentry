@@ -5,7 +5,7 @@ import { faArrowAltCircleLeft, faArrowCircleRight, faArrowCircleLeft } from '@fo
 // STYLES
 import './styles/category.scss';
 
-function moveRight(currentIndex) {
+const moveRight = (currentIndex) => {
     if(currentIndex === 2) {
         currentIndex = 0;
     } else {
@@ -14,7 +14,7 @@ function moveRight(currentIndex) {
     return currentIndex;
 }
 
-function moveLeft(currentIndex) {
+const moveLeft = (currentIndex) => {
     if(currentIndex === 0) {
         currentIndex = 2;
     } else {
